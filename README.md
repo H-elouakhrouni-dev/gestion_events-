@@ -7,7 +7,7 @@ Full-stack event management system with Laravel backend and React frontend.
 - PHP 8.2+
 - Node.js 18+
 - Composer
-- MySQL on port 4306
+- MySQL on port 4306 (for local development)
 
 ## Setup
 
@@ -33,6 +33,18 @@ npm run dev
 
 - **Backend API**: http://127.0.0.1:8000/api
 - **Frontend**: http://localhost:5175
+
+## Deployment
+
+### HuggingFace Spaces
+
+Deploy this full-stack application to HuggingFace Spaces using Docker:
+
+```bash
+git push -u huggingface main
+```
+
+📖 See **[DEPLOYMENT_HUGGINGFACE.md](DEPLOYMENT_HUGGINGFACE.md)** for complete deployment instructions.
 
 ---
 
